@@ -1,0 +1,15 @@
+# Python 3.10. Core sampling dependencies; no dataset download or MPC required.
+# JAX / Flax / Chex / Optax follow the supplementary artifact's pinned versions.
+numpy==1.26.4
+scipy==1.12.0
+jax[cpu]==0.4.26
+jaxlib==0.4.26
+flax==0.8.4
+chex==0.1.86
+optax==0.2.2
+orbax-checkpoint==0.5.16
+tensorstore==0.1.60
+pillow==10.4.0
+imageio==2.34.2
+opencv-python-headless==4.10.0.84
+tqdm==4.66.5

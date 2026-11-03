@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+outputs/
+**/FID_dataset/
+**/datasets/mnist/
+**/eval_out/
+**/model_eval/
+*.log
+log.txt
+result.txt
+wandb/
+.pytest_cache/
+# Keep only the small checkpoints supplied with this release.
+*.msgpack
+!**/checkpoints/Silu.msgpack
+!**/checkpoints/FA-CTA-PlanA-silu-epoch-50-model.msgpack
+!**/checkpoints/ddpm-20000.msgpack

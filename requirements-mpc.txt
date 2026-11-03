@@ -1,0 +1,9 @@
+-r requirements.txt
+# This release has Linux wheels for Python 3.10.
+spu==0.9.3.dev20241101
+grpcio==1.58.0
+protobuf==4.25.3
+cloudpickle==3.0.0
+multiprocess==0.70.16
+cachetools==5.5.0
+termcolor==2.4.0

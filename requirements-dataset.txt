@@ -1,0 +1,4 @@
+-r requirements.txt
+# Install CPU PyTorch wheels first, as described in Accuracy/README.md.
+torch==2.3.1
+torchvision==0.18.1
